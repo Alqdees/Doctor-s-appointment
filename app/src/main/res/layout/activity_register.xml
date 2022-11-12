@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customer_background_primary"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/labelTest"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="12dp"
+            android:hint="الاسم "
+            android:outlineSpotShadowColor="@color/teal_200"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/backgroundCard"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
+            app:boxStrokeColor="@color/teal_200"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:counterTextColor="@color/teal_200"
+            app:hintTextColor="@color/white"
+            app:suffixTextColor="@color/teal_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:shadowColor="@color/black"
+                android:textColor="@color/white" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="12dp"
+            android:hint="رقم الهاتف"
+            android:outlineSpotShadowColor="@color/teal_200"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/backgroundCard"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
+            app:boxStrokeColor="@color/teal_200"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:counterTextColor="@color/teal_200"
+            app:hintTextColor="@color/white"
+            app:suffixTextColor="@color/teal_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:shadowColor="@color/black"
+                android:textColor="@color/white" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="12dp"
+            android:hint="الموقع"
+            android:outlineSpotShadowColor="@color/teal_200"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/backgroundCard"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
+            app:boxStrokeColor="@color/teal_200"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:counterTextColor="@color/teal_200"
+            app:hintTextColor="@color/white"
+            app:suffixTextColor="@color/teal_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:shadowColor="@color/black"
+                android:textColor="@color/white" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="12dp"
+            android:hint="اوقات الدوام"
+            android:outlineSpotShadowColor="@color/teal_200"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/backgroundCard"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
+            app:boxStrokeColor="@color/teal_200"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:counterTextColor="@color/teal_200"
+            app:hintTextColor="@color/white"
+            app:suffixTextColor="@color/teal_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:shadowColor="@color/black"
+                android:textColor="@color/white" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="12dp"
+            android:hint="التخصص"
+            android:outlineSpotShadowColor="@color/teal_200"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/backgroundCard"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
+            app:boxStrokeColor="@color/teal_200"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:counterTextColor="@color/teal_200"
+            app:hintTextColor="@color/white"
+            app:suffixTextColor="@color/teal_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Specialization"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:shadowColor="@color/black"
+                android:textColor="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/typeTV"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="12dp"
+            android:hint="أختر الدولة"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/backgroundCard"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
+            app:boxStrokeColor="@color/teal_200"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:counterTextColor="@color/teal_200"
+            app:hintTextColor="@color/white"
+            app:suffixTextColor="@color/teal_200">
+
+            <AutoCompleteTextView
+                android:id="@+id/typesAuto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableTint="@color/white"
+                android:dropDownSelector="@color/white"
+                android:gravity="center"
+                android:inputType="none"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="12dp"
+            android:hint="أختر المحافظة"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/backgroundCard"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
+            app:boxStrokeColor="@color/teal_200"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:counterTextColor="@color/teal_200"
+            app:hintTextColor="@color/white"
+            app:suffixTextColor="@color/teal_200">
+
+            <AutoCompleteTextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableTint="@color/white"
+                android:dropDownSelector="@color/white"
+                android:gravity="center"
+                android:inputType="none"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/doctur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/custom_button"
+            android:elevation="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:shadowColor="@color/teal_200"
+            android:text="تسجيل"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+</LinearLayout>
